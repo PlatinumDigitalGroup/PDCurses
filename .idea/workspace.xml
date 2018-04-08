@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="src" targetName="src" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53e2d793-a993-42bc-9988-369ecbeab4e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/platchain-clang-msvc.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMPLEMNT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/borland.lrf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/firework.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/nctests.mif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/ncurses_cfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/ozdemo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/ptest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/rain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/testcurs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/tui.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/tui.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/tuidemo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/worm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/xmas.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/manext.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/sdl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/x11.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/Makefile.bcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/Makefile.w16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/Makefile.w4g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcclip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcdisp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcdos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcgetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdckbd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcscrn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcsetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dos/pdcutil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libobjs.mif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/makedist.mif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/Makefile.bcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/Makefile.wcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcclip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcdisp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcgetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdckbd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcos2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcscrn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcsetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/os2/pdcutil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/addch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/addch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/addchstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/addchstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/addstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/addstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/attr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/attr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/beep.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/beep.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/bkgd.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkgd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/border.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/border.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/clear.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/color.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/color.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/debug.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/delch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/delch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/deleteln.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/deleteln.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/deprec.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/deprec.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/getch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/getch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/getstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/getstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/getyx.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/getyx.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/inch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/inch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/inchstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/inchstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/initscr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/initscr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/inopts.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/inopts.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/insch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/insch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/insstr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/insstr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/instr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/instr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/kernel.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/keyname.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/keyname.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/mouse.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mouse.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/move.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/move.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/outopts.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/outopts.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/overlay.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/overlay.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/pad.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pad.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/panel.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/panel.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/printw.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/printw.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/refresh.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/refresh.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/scanw.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/scanw.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/scr_dump.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/scr_dump.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/scroll.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/scroll.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/slk.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/slk.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/termattr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/termattr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/terminfo.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminfo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/touch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/touch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/util.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdcurses/window.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/window.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/deffont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/deficon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcclip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcdisp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcgetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdckbd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcscrn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcsdl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcsetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/pdcutil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl1/sdltest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/deffont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/deficon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcclip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcdisp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcgetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdckbd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcscrn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcsdl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcsetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/pdcutil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2/sdltest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curses.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curspriv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pdcwin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/term.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version.mif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watcom.mif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/Makefile.bcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/Makefile.vc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/Makefile.wcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcclip.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcclip.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcdisp.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcdisp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcgetsc.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcgetsc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdckbd.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdckbd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcscrn.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcscrn.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcsetsc.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcsetsc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcurses.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcurses.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcurses.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcurses.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wincon/pdcutil.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdcutil.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/ScrollBox.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/ScrollBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/ScrollBoxP.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/big_icon.xbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/compose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/little_icon.xbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcclip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcdisp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcgetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdckbd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcscrn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcsetsc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcutil.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcx11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/pdcx11.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/sb.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/x11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x11/xcurses-config.in" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="windows.h" pinned="false" current-in-tab="false">
+        <entry file="file://C:/MinGW/include/windows.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+              <folding>
+                <element signature="e#1484#1553#0" expanded="true" />
+                <element signature="e#1712#1732#0" expanded="true" />
+                <marker date="1489002454000" expanded="true" signature="1864:3002" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panel.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/panel.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2176">
+              <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terminfo.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/terminfo.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdcscrn.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pdcscrn.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6681">
+              <caret line="393" column="14" selection-start-line="393" selection-start-column="14" selection-end-line="393" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addch.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src - Copy/addch.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="platchain-clang-msvc.cmake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platchain-clang-msvc.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kernel.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kernel.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>w</find>
+      <find>window</find>
+      <find>C:/Program Files/LLVM/bin</find>
+      <find>windows_lib</find>
+      <find>linker</find>
+      <find>CXX</find>
+      <find>.c</find>
+      <find>curses.h</find>
+      <find>windows.h</find>
+      <find>#</find>
+      <find>#incl</find>
+      <find>#inclu</find>
+      <find>#include</find>
+      <find>#include &lt;</find>
+      <find>#include &lt;cu</find>
+      <find>#include &lt;curs</find>
+      <find>#include &lt;cursp</find>
+      <find>#include &lt;curspriv</find>
+      <find>#include &lt;curspriv.</find>
+      <find>#include &lt;curspriv.h&quot;</find>
+      <find>#include &lt;curspriv.h</find>
+      <find>#include &lt;curspriv.h&gt;</find>
+      <find>#include &lt;curspr.h&gt;</find>
+      <find>#include &lt;cursp.h&gt;</find>
+      <find>#include &lt;curs.h&gt;</find>
+      <find>#include &lt;curse.h&gt;</find>
+      <find>#include &lt;curses.h&gt;</find>
+      <find>.cpp</find>
+      <find>link</find>
+      <find>CMAKE_STATIC_LINKER_FLAGS</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>.cpp</replace>
+      <replace>#include &quot;curspriv.h&quot;</replace>
+      <replace>#include &quot;curses.h&quot;</replace>
+      <replace>.c</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\brenhein\Source\Repos\PDCurses</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demos/firework.c" />
+        <option value="$PROJECT_DIR$/src/addch.c" />
+        <option value="$PROJECT_DIR$/src/addchstr.c" />
+        <option value="$PROJECT_DIR$/src/addstr.c" />
+        <option value="$PROJECT_DIR$/src/attr.c" />
+        <option value="$PROJECT_DIR$/src/beep.c" />
+        <option value="$PROJECT_DIR$/src/border.c" />
+        <option value="$PROJECT_DIR$/src/clear.c" />
+        <option value="$PROJECT_DIR$/src/bkgd.c" />
+        <option value="$PROJECT_DIR$/src/debug.c" />
+        <option value="$PROJECT_DIR$/src/color.c" />
+        <option value="$PROJECT_DIR$/src/delch.c" />
+        <option value="$PROJECT_DIR$/src/deleteln.c" />
+        <option value="$PROJECT_DIR$/src/deprec.c" />
+        <option value="$PROJECT_DIR$/src/getch.c" />
+        <option value="$PROJECT_DIR$/src/pdcdisp.c" />
+        <option value="$PROJECT_DIR$/src/addch.cpp" />
+        <option value="$PROJECT_DIR$/src - Copy/addch.c" />
+        <option value="$PROJECT_DIR$/src/curspriv.h" />
+        <option value="$PROJECT_DIR$/src/panel.c" />
+        <option value="$PROJECT_DIR$/src/terminfo.c" />
+        <option value="$PROJECT_DIR$/platchain-clang-msvc.cmake" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1169" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDCurses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDCurses" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brenhein\Source\Repos\PDCurses\pdcurses" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.src">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Release" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="src" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="src" TARGET_NAME="src" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="src" RUN_TARGET_NAME="src" />
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PDCurses" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PDCurses" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PDCurses" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="PDCurses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="PDCurses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="PDCurses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.src" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53e2d793-a993-42bc-9988-369ecbeab4e3" name="Default" comment="" />
+      <created>1523149268326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523149268326</updated>
+      <workItem from="1523149269734" duration="7535000" />
+      <workItem from="1523157585125" duration="801000" />
+      <workItem from="1523158611752" duration="713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9049000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1551" height="935" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983734" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3296837" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.3296837" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297769" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/MinGW/include/windows.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#1484#1553#0" expanded="true" />
+            <element signature="e#1712#1732#0" expanded="true" />
+            <marker date="1489002454000" expanded="true" signature="1864:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terminfo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdcscrn.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6681">
+          <caret line="393" column="14" selection-start-line="393" selection-start-column="14" selection-end-line="393" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src - Copy/addch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platchain-clang-msvc.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kernel.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/windows.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#1484#1553#0" expanded="true" />
+            <element signature="e#1712#1732#0" expanded="true" />
+            <marker date="1489002454000" expanded="true" signature="1864:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terminfo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdcscrn.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8253">
+          <caret line="393" column="14" selection-start-line="393" selection-start-column="14" selection-end-line="393" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src - Copy/addch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/curspriv.h" />
+    <entry file="file://$PROJECT_DIR$/platchain-clang-msvc.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/firework.c" />
+    <entry file="file://$PROJECT_DIR$/src/addch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addchstr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addstr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/attr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beep.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/border.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clear.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bkgd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debug.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/color.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/delch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deleteln.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deprec.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/getch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdcwin.h" />
+    <entry file="file://C:/MinGW/include/wincon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4043" />
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/windows.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#1484#1553#0" expanded="true" />
+            <element signature="e#1712#1732#0" expanded="true" />
+            <marker date="1489002454000" expanded="true" signature="1864:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdcdisp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile" />
+    <entry file="file://$PROJECT_DIR$/src/addch.cpp" />
+    <entry file="file://$PROJECT_DIR$/src - Copy/addch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addchstr.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/curspriv.h" />
+    <entry file="file://$PROJECT_DIR$/src/color.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/deleteln.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/getyx.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/panel.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terminfo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdcscrn.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6681">
+          <caret line="393" column="14" selection-start-line="393" selection-start-column="14" selection-end-line="393" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kernel.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platchain-clang-msvc.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+"C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -G "CodeBlocks - MinGW Makefiles" C:\Users\brenhein\Source\Repos\PDCurses
+-- Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe
+-- Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-release

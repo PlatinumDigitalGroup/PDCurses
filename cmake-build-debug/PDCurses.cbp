@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PDCurses"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PDCurses">
+				<Option output="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/PDCurses.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 PDCurses"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PDCurses/fast">
+				<Option output="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/PDCurses.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 PDCurses/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/brenhein/Source/Repos/PDCurses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/curses.h">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/curspriv.h">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/panel.h">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/addch.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/addchstr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/addstr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/attr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/beep.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/bkgd.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/border.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/clear.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/color.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/debug.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/delch.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/deleteln.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/deprec.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/getch.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/getstr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/getyx.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/inch.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/inchstr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/initscr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/inopts.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/insch.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/insstr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/instr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/kernel.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/keyname.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/mouse.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/move.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/outopts.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/overlay.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/pad.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/panel.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/printw.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/refresh.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/scanw.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/scr_dump.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/scroll.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/slk.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/termattr.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/terminfo.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/touch.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/util.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/pdcurses/window.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/term.h">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcclip.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcdisp.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcgetsc.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdckbd.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcscrn.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcsetsc.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcutil.c">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/wincon/pdcwin.h">
+			<Option target="PDCurses"/>
+		</Unit>
+		<Unit filename="C:/Users/brenhein/Source/Repos/PDCurses/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1460 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pdcurses/curses.h
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+wchar.h
+-
+
+../include/pdcurses/curspriv.h
+curses.h
+../include/pdcurses/curses.h
+
+../include/pdcurses/panel.h
+curses.h
+../include/pdcurses/curses.h
+
+../include/pdcurses/pdcwin.h
+windows.h
+-
+curspriv.h
+../include/pdcurses/curspriv.h
+
+../include/pdcurses/term.h
+curses.h
+../include/pdcurses/curses.h
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/ConcurrencySal.h
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/codeanalysis/sourceannotations.h
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/excpt.h
+vcruntime.h
+-
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/limits.h
+vcruntime.h
+-
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/sal.h
+codeanalysis/sourceannotations.h
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/codeanalysis/sourceannotations.h
+ConcurrencySal.h
+-
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/stdarg.h
+vcruntime.h
+-
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vadefs.h
+
+C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vcruntime.h
+sal.h
+-
+vadefs.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/SCardErr.h
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/cguid.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/combaseapi.h
+apiset.h
+-
+apisetcconv.h
+-
+rpc.h
+-
+rpcndr.h
+-
+pshpack8.h
+-
+stdlib.h
+-
+wtypesbase.h
+-
+unknwnbase.h
+-
+objidlbase.h
+-
+guiddef.h
+-
+cguid.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/coml2api.h
+apiset.h
+-
+apisetcconv.h
+-
+combaseapi.h
+-
+objidl.h
+-
+propidlbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/commctrl.rh
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/commdlg.h
+winapifamily.h
+-
+prsht.h
+-
+pshpack1.h
+-
+commdlg.inl
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/commdlg.inl
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/commdlg.inl
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/consoleapi.h
+apiset.h
+-
+apisetcconv.h
+-
+windows.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/datetimeapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/dde.h
+windef.h
+-
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/dde.rh
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ddeml.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/debugapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/dlgs.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/dpapi.h
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/enclaveapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/errhandlingapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/fibersapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/fileapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/handleapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/heapapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ime_cmodes.h
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/imm.h
+winapifamily.h
+-
+ime_cmodes.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/interlockedapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ioapiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/jobapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/jobapi2.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/joystickapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/libloaderapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/lzexpand.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mciapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mcx.h
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/memoryapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/minwinbase.h
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mmeapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mmiscapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mmiscapi2.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mmsyscom.h
+winapifamily.h
+-
+pshpack1.h
+-
+macwin32.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/mmsystem.h
+winapifamily.h
+-
+mmsyscom.h
+-
+pshpack1.h
+-
+mciapi.h
+-
+mmiscapi.h
+-
+mmiscapi2.h
+-
+playsoundapi.h
+-
+mmeapi.h
+-
+timeapi.h
+-
+joystickapi.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/msxml.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+unknwn.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/unknwn.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+oaidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oaidl.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/namedpipeapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/namespaceapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/nb30.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ncrypt.h
+winapifamily.h
+-
+bcrypt.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oaidl.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objbase.h
+winapifamily.h
+-
+rpc.h
+-
+rpcndr.h
+-
+pshpack8.h
+-
+combaseapi.h
+-
+coml2api.h
+-
+objidl.h
+-
+urlmon.h
+-
+propidl.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+unknwn.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/unknwn.h
+winapifamily.h
+-
+winapifamily.h
+-
+limits.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidlbase.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+unknwnbase.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/unknwnbase.h
+winapifamily.h
+-
+limits.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole.h
+winapifamily.h
+-
+pshpack1.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+winapifamily.h
+-
+pshpack8.h
+-
+winerror.h
+-
+objbase.h
+-
+oleauto.h
+-
+coml2api.h
+-
+oleidl.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oleauto.h
+winapifamily.h
+-
+pshpack8.h
+-
+oaidl.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oleidl.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/playsoundapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/processenv.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/processthreadsapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/processtopologyapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/profileapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/propidl.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+oaidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oaidl.h
+winapifamily.h
+-
+coml2api.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/propidlbase.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+oaidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oaidl.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/prsht.h
+winapifamily.h
+-
+pshpack8.h
+-
+pshpack4.h
+-
+prsht.inl
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/prsht.inl
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/prsht.inl
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/realtimeapiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/reason.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/securityappcontainer.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/securitybaseapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/servprov.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/shellapi.h
+winapifamily.h
+-
+SpecStrings.h
+-
+pshpack1.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/stringapiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+winnls.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/synchapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/sysinfoapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/systemtopologyapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/threadpoolapiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/threadpoollegacyapiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/timeapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/timezoneapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/unknwn.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+wtypes.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/wtypes.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/unknwnbase.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+wtypesbase.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/wtypesbase.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/urlmon.h
+rpc.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpc.h
+rpcndr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/rpcndr.h
+windows.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+ole2.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/ole2.h
+objidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/objidl.h
+oleidl.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/oleidl.h
+servprov.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/servprov.h
+msxml.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/msxml.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/utilapiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/verrsrc.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winbase.h
+winapifamily.h
+-
+macwin32.h
+-
+apisetcconv.h
+-
+minwinbase.h
+-
+processenv.h
+-
+fileapi.h
+-
+debugapi.h
+-
+utilapiset.h
+-
+handleapi.h
+-
+errhandlingapi.h
+-
+fibersapi.h
+-
+namedpipeapi.h
+-
+profileapi.h
+-
+heapapi.h
+-
+ioapiset.h
+-
+synchapi.h
+-
+interlockedapi.h
+-
+processthreadsapi.h
+-
+sysinfoapi.h
+-
+memoryapi.h
+-
+enclaveapi.h
+-
+threadpoollegacyapiset.h
+-
+threadpoolapiset.h
+-
+jobapi.h
+-
+jobapi2.h
+-
+wow64apiset.h
+-
+libloaderapi.h
+-
+securitybaseapi.h
+-
+namespaceapi.h
+-
+systemtopologyapi.h
+-
+processtopologyapi.h
+-
+securityappcontainer.h
+-
+realtimeapiset.h
+-
+winerror.h
+-
+timezoneapi.h
+-
+winbase.inl
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winbase.inl
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winbase.inl
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/wincon.h
+winapifamily.h
+-
+wingdi.h
+-
+consoleapi.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/wincrypt.h
+specstrings.h
+-
+winapifamily.h
+-
+bcrypt.h
+-
+ncrypt.h
+-
+dpapi.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/windows.h
+winapifamily.h
+-
+sdkddkver.h
+-
+winresrc.h
+-
+excpt.h
+-
+stdarg.h
+-
+windef.h
+-
+winbase.h
+-
+wingdi.h
+-
+winuser.h
+-
+winnls.h
+-
+wincon.h
+-
+winver.h
+-
+winreg.h
+-
+winnetwk.h
+-
+cderr.h
+-
+dde.h
+-
+ddeml.h
+-
+dlgs.h
+-
+lzexpand.h
+-
+mmsystem.h
+-
+nb30.h
+-
+rpc.h
+-
+shellapi.h
+-
+winperf.h
+-
+winsock.h
+-
+wincrypt.h
+-
+winefs.h
+-
+winscard.h
+-
+winspool.h
+-
+ole.h
+-
+ole2.h
+-
+commdlg.h
+-
+stralign.h
+-
+winwlm.h
+-
+ole2.h
+-
+winsvc.h
+-
+mcx.h
+-
+imm.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winefs.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/wingdi.h
+winapifamily.h
+-
+macwin32.h
+-
+pshpack1.h
+-
+poppack.h
+-
+pshpack2.h
+-
+poppack.h
+-
+pshpack2.h
+-
+poppack.h
+-
+pshpack4.h
+-
+poppack.h
+-
+pshpack4.h
+-
+poppack.h
+-
+pshpack4.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/pshpack4.h
+poppack.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/poppack.h
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winioctl.h
+pshpack1.h
+-
+poppack.h
+-
+winapifamily.h
+-
+pshpack1.h
+-
+poppack.h
+-
+pshpack1.h
+-
+poppack.h
+-
+pshpack1.h
+-
+poppack.h
+-
+pshpack1.h
+-
+poppack.h
+-
+pshpack1.h
+-
+poppack.h
+-
+pshpack1.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winnetwk.h
+winapifamily.h
+-
+wnnc.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winnls.h
+winapifamily.h
+-
+datetimeapi.h
+-
+libloaderapi.h
+-
+macwin32.h
+-
+stringapiset.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winnt.rh
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winperf.h
+winapifamily.h
+-
+pshpack8.h
+-
+poppack.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winreg.h
+winapifamily.h
+-
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+macwin32.h
+-
+reason.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winresrc.h
+winuser.rh
+-
+commctrl.rh
+-
+dde.rh
+-
+winnt.rh
+-
+dlgs.h
+-
+winver.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winscard.h
+wtypes.h
+-
+winioctl.h
+-
+winsmcrd.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winsmcrd.h
+SCardErr.h
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/SCardErr.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winsock.h
+winapifamily.h
+-
+windows.h
+-
+inaddr.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winspool.h
+winapifamily.h
+-
+prsht.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winsvc.h
+winapifamily.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winuser.h
+winapifamily.h
+-
+macwin32.h
+-
+stdarg.h
+-
+libloaderapi.h
+-
+pshpack2.h
+-
+poppack.h
+-
+tvout.h
+-
+winuser.inl
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winuser.inl
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winuser.inl
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winuser.rh
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/winver.h
+winapifamily.h
+-
+SpecStrings.h
+-
+verrsrc.h
+-
+
+C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um/wow64apiset.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/addch.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/addchstr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/addstr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/attr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/beep.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/bkgd.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/border.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/clear.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/color.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/debug.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+time.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/delch.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/deleteln.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/deprec.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/getch.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/getstr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/getyx.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/inch.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/inchstr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/initscr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/inopts.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/insch.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/insstr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/instr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/kernel.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/keyname.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/mouse.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/move.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/outopts.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/overlay.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pad.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/panel.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+panel.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/panel.h
+stdlib.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcclip.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcdisp.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcgetsc.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdckbd.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcscrn.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+stdlib.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcsetsc.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcutil.c
+pdcwin.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/pdcwin.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/printw.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/refresh.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/scanw.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+limits.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/scr_dump.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/scroll.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/slk.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/termattr.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+string.h
+-
+limits.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/terminfo.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+term.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/term.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/touch.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/util.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/brenhein/Source/Repos/PDCurses/src/window.c
+curspriv.h
+C:/Users/brenhein/Source/Repos/PDCurses/src/curspriv.h
+stdlib.h
+-
+
